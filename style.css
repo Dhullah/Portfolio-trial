@@ -1,0 +1,349 @@
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #23262C;
+    width: 100vw;
+    max-width: 100%;
+   overflow-x: hidden;
+}
+h1{
+    font-size: 92px;
+    font-weight: 700;
+    color: #F9FAFB;
+    text-align: right;
+    margin: 0;
+}
+.large{
+    font-size: 20px;
+    color: #D0D5DD;
+    text-align: right;
+    margin: 0;
+}
+.cta{
+    padding: 10px 20px;
+    background-color: #F56630;
+    color: #D0D5DD;
+    border-radius: 5px;
+    width: 140px;
+    align-self: flex-end;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: #D0D5DD;
+}
+.intro{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    align-items: right;
+}
+.profile-pic{
+    width: 200px;
+    align-self: flex-end;
+}
+.small{
+    font-size: 18px;
+    color: #98A2B3;
+}
+.text-jokes{
+    display: flex;
+    flex-direction: column;
+    max-width: 634px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.left-aligned{
+    text-align: left;
+    margin: 0;
+}
+.white{
+    color: #D0D5DD;
+}
+.icon-container{
+    display: flex;
+    border: #D0D5DD solid 1px;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+}
+.jokes{
+    display: flex;
+    width: fit-content;
+    gap: 20px;
+    
+}
+.hero{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 50px;
+    width: fit-content;
+    
+}
+#hero-section{
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+    width: 100%;
+    height: fit-content;
+}
+#skills-section{
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+    width: 100%;
+    height: fit-content;
+}
+.skills{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 30px;
+    justify-content: center;
+   
+}
+h2{
+    font-size: 64px;
+    color: #838383;
+    margin: 0;
+}
+h3{
+    font-size: 60px;
+    color: #838383;
+    margin: 0;
+}
+.skill-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+}
+.icon-image{
+    width: 24px;
+    height: 24px;
+    align-self: center;
+}
+.item{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    width: fit-content;
+    flex-direction: row;
+}
+
+.text-container{
+    display: flex;
+    max-width: 396px;
+    flex-wrap: wrap;
+}
+#experience-section{
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+    width: 100%;
+    height: fit-content;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.experience-list{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    width: fit-content;
+}
+#gallery-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    width: 100%;
+    height: fit-content;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.adams-flapjack{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+.arnica{
+    max-width: 864px;
+    height: auto;
+}
+#Send-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 100px;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+}
+.outline{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 30px;
+    border:1px #D0D5DD solid;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    justify-content: center;
+    align-items: left;
+}
+.send{
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 396px;
+    align-items: left;
+    gap: 20px;
+}
+.left{
+    align-self: left;
+}
+p{
+    margin-block: 0;
+}
+.button-container{
+    display: flex;
+    justify-content: left;
+}
+.gallery-image{
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.arnica-div{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flapjack-div{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.proof{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+}
+.hair-div{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+@media (width <= 1250px){
+    h1{
+        font-size: 68px;
+        margin: 0;
+    }
+    .large{
+        font-size: 16px;
+    }
+    .small{
+        font-size: 14px;
+    }
+    .profile-pic{
+        width: 150px;
+    }
+    .text-jokes{
+        max-width: 480px;   
+    }
+    h2{
+        font-size: 42px;
+    }
+    h3{
+        font-size: 36px;
+    }
+    .gallery{
+        gap: 30px;
+    }
+    .gallery-image{
+        width: 100%;
+        height: auto;
+        resize: both;
+    }
+    .flapjack-div{
+        justify-content: center;
+        align-items: center;
+    }
+    #hero-section{
+        padding: 30px 20px;
+    }
+    #skills-section{
+        padding: 30px 20px;
+    }
+    #experience-section{
+        padding: 30px 20px;
+    }
+    #gallery-section{
+        padding: 30px 20px;
+    }
+    #Send-message{
+        padding: 30px 20px;
+    }
+    .outline{
+        max-width: 480px;
+    }
+    .send{
+        max-width: 100%;
+    }
+    .hair-div{
+        align-self: center;
+    }
+    .arnica{
+        width: 700px;
+    }
+    .adams{
+        width: 700px;
+    }
+    .Flapjackss{
+        width: 700px;
+    }
+    .flapjack{
+        width: 700px;
+    }
+    .hair{
+        width: 700px;
+        align-self: center;
+    }
+}
+@media (width <= 700px){
+    .arnica{
+        width: 400px;
+    }
+    .adams{
+        width: 400px;
+    }
+    .Flapjackss{
+        width: 400px;
+    }
+    .flapjack{
+        width: 400px;
+    }
+    .hair{
+        width: 400px;
+        align-self: center;
+    }
+}
